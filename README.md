@@ -60,13 +60,13 @@ Comment out line 23.
 **************************************************************************************************************************************
 # Citation
 You are encouraged to modify/distribute this code. However, please acknowledge this code and cite the paper appropriately.
-
+```
 @article{korkmaz2021unsupervised,
   title={Unsupervised MRI Reconstruction via Zero-Shot Learned Adversarial Transformers},
   author={Korkmaz, Yilmaz and Dar, Salman UH and Yurt, Mahmut and {\"O}zbey, Muzaffer and {\c{C}}ukur, Tolga},
   journal={arXiv preprint arXiv:2105.08059},
   year={2021}
-
+```
 (c) ICON Lab 2021
 
 **************************************************************************************************************************************
