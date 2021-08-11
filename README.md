@@ -71,12 +71,12 @@ You are encouraged to modify/distribute this code. However, please acknowledge t
 
 **************************************************************************************************************************************
 # Prerequisites
-Python 3.6
-NVIDIA GPU + CUDA CuDNN
+Python 3.6 --
+NVIDIA GPU + CUDA CuDNN --
 TensorFlow 1.14 or 1.15
 
 **************************************************************************************************************************************
-# Acknowledgments
+# Acknowledgements
 
 This code uses libraries from the StyleGAN-2 (https://github.com/NVlabs/stylegan2) and Gansformer (https://github.com/dorarad/gansformer) repositories.
 
