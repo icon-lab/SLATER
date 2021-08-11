@@ -81,5 +81,4 @@ TensorFlow 1.14 or 1.15
 This code uses libraries from the StyleGAN-2 (https://github.com/NVlabs/stylegan2) and Gansformer (https://github.com/dorarad/gansformer) repositories.
 
 For questions/comments please send me an email: korkmaz@ee.bilkent.edu.tr
-}
 **************************************************************************************************************************************
