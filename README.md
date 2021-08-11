@@ -1,4 +1,4 @@
-Official TensorFlow implementation of an unsupervised reconstruction model using zero-Shot Learned Adversarial TransformERs (SLATER). (https://arxiv.org/abs/2105.08059)
+Official TensorFlow implementation of the unsupervised reconstruction model using zero-Shot Learned Adversarial TransformERs (SLATER). (https://arxiv.org/abs/2105.08059)
 
 Korkmaz, Y., Dar, S. U., Yurt, M., Ozbey, M., & Cukur, T. (2021). Unsupervised MRI Reconstruction via Zero-Shot Learned Adversarial Transformers. arXiv preprint arXiv:2105.08059.
 
