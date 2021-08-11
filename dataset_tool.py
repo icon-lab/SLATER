@@ -319,7 +319,7 @@ def compare(tfrecord_dir_a, tfrecord_dir_b, ignore_labels):
 
 #************************************************************************************************************
 
-# used to create single-coil datasets (from DICOM images)
+# used to create single-coil datasets (from .png images)
 def create_from_images(tfrecord_dir, image_dir, shuffle=False):
     print('Loading images from "%s"' % image_dir)
     image_filenames = sorted(glob.glob(os.path.join(image_dir, '*')), key=os.path.getmtime)
