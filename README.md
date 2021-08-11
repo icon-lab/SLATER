@@ -71,7 +71,7 @@ You are encouraged to modify/distribute this code. However, please acknowledge t
 
 **************************************************************************************************************************************
 # Prerequisites
-Python 3.5 or higher.
+Python 3.6
 NVIDIA GPU + CUDA CuDNN
 TensorFlow 1.14 or 1.15
 
