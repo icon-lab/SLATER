@@ -22,7 +22,7 @@ Sample reconstruction/test command for IXI dataset:
 python run_recon_single_coil.py reconstruct-magnitude-images --network=pretrained_snapshots/ixi-t1/network-snapshot-001282.pkl --dataset=ixi_t1_test --acc-rate=4 --contrast=t1 --data-dir=datasets/single-coil-datasets/test
 
 **************************************************************************************************************************************
-# Dataset Information and Data Preperation
+# Datasets information and data preperation
 IXI dataset: https://brain-development.org/ixi-dataset/ 
 fastMRI Brain dataset: https://fastmri.med.nyu.edu/
 
