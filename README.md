@@ -50,7 +50,7 @@ Sample training and test datasets for IXI-T1 and fastMRI-T1 can be downloaded fr
 https://drive.google.com/drive/folders/1hLC8Pv7EzAH03tpHquDUuP-lLBasQ23Z?usp=sharing
 
 **************************************************************************************************************************************
-# Notice for training with multi-coil datasets
+## Notice for training with multi-coil datasets
 To train multi-coil (complex) datasets you need to remove/add some lines in training_loop.py:
 
 Comment out line 8.
