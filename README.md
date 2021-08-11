@@ -66,6 +66,7 @@ You are encouraged to modify/distribute this code. However, please acknowledge t
   author={Korkmaz, Yilmaz and Dar, Salman UH and Yurt, Mahmut and {\"O}zbey, Muzaffer and {\c{C}}ukur, Tolga},
   journal={arXiv preprint arXiv:2105.08059},
   year={2021}
+  }
 ```
 (c) ICON Lab 2021
 
