@@ -10,21 +10,28 @@ For training the MRI prior we use fully-sampled images, for testing undersamplin
 We have used AdamOptimizer in training, RMSPropOptimizer with momentum parameter 0.9 in testing/inference. In the current settings AdamOptimizer is used, you can change underlying optimizer class in dnnlib/tflib/optimizer.py file. You can insert additional paramaters like momentum to the line 87 in the optimizer.py file.
 
 Sample training command for multi-coil (fastMRI) dataset:
+```.bash
 python run_network.py --train --gpus=0 --expname=fastmri_t1_train --dataset=fastmri-t1 --data-dir=datasets/multi-coil-datasets/train
+```
 
 Sample reconstruction/test command for fastMRI dataset:
+```.bash
 python run_recon_multi_coil.py reconstruct-complex-images --network=pretrained_snapshots/fastmri-t1/network-snapshot-001282.pkl --dataset=fastmri-t1 --acc-rate=4 --contrast=t1 --data-dir=datasets/multi-coil-datasets/test
+```
 
 Sample training command for single-coil (IXI) dataset:
+```.bash
 python run_network.py --train --gpus=0 --expname=ixi_t1_train --dataset=ixi_t1 --data-dir=datasets/single-coil-datasets/train
+```
 
 Sample reconstruction/test command for IXI dataset:
+```.bash
 python run_recon_single_coil.py reconstruct-magnitude-images --network=pretrained_snapshots/ixi-t1/network-snapshot-001282.pkl --dataset=ixi_t1_test --acc-rate=4 --contrast=t1 --data-dir=datasets/single-coil-datasets/test
-
+```
 **************************************************************************************************************************************
 # Datasets
-IXI dataset: https://brain-development.org/ixi-dataset/ 
-fastMRI Brain dataset: https://fastmri.med.nyu.edu/
+* IXI dataset: https://brain-development.org/ixi-dataset/ 
+* fastMRI Brain dataset: https://fastmri.med.nyu.edu/
 
 For IXI dataset image dimensions are 256x256.
 For fastMRI dataset image dimensions vary with contrasts. (T1: 256x320, T2: 288x384, FLAIR: 256x320).
@@ -53,9 +60,9 @@ https://drive.google.com/drive/folders/1hLC8Pv7EzAH03tpHquDUuP-lLBasQ23Z?usp=sha
 ## Notice for training with multi-coil datasets
 To train multi-coil (complex) datasets you need to remove/add some lines in training_loop.py:
 
-Comment out line 8.
-Delete comment at line 9. 
-Comment out line 23.
+* Comment out line 8.
+* Delete comment at line 9. 
+* Comment out line 23.
 
 **************************************************************************************************************************************
 # Citation
@@ -72,9 +79,9 @@ You are encouraged to modify/distribute this code. However, please acknowledge t
 
 **************************************************************************************************************************************
 # Prerequisites
-Python 3.6 --
-CuDNN 10.1 --
-TensorFlow 1.14 or 1.15
+* Python 3.6 --
+* CuDNN 10.1 --
+* TensorFlow 1.14 or 1.15
 
 **************************************************************************************************************************************
 # Acknowledgements
